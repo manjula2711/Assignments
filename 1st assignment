@@ -22,12 +22,14 @@ print("Total amount including Taxes and Additional charges = ",Total_amount)
 
 PROGRAM 2: To print unique characters in a string
 
-string1 = input(" ")
+string1 = input("string1 = ")
+string1 = string1.lower()
 uniqueLetters = []
 for i in string1:
     if i not in uniqueLetters:
         uniqueLetters.append(i)
-print(uniqueLetters)
+print("uniqueLetters = ",uniqueLetters)
+    
     
     
 
