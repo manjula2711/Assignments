@@ -1,0 +1,24 @@
+PROGRAM 1 :
+
+# BOOK1 - "INTRODUCTION TO PYTHON PROGRAMMING"
+# BOOK2 - "PYTHON LIBRARIES COOKBOOK"
+# BOOK3 - "DATA SCIENCE IN PYTHON"
+cost_book1 = 499.00
+cost_book2 = 855.00
+cost_book3 = 645.00
+GST = 0.12 # 12%
+delivery_charges = 250.00
+
+book1 = int(input("Enter the number of 'INTRODUCTION TO PYTHON PROGRAMMING' books you want: "))
+book2 = int(input("Enter the number of 'PYTHON LIBRARIES COOKBOOK' books you want: "))
+book3 = int(input("Enter the number of 'DATA SCIENCE IN PYTHON' books you want: "))
+
+Total_amount = (book1 * cost_book1) + (book2 * cost_book2) + (book3 * cost_book3) + GST + delivery_charges
+
+print("Total amount including Taxes and Additional charges = ",Total_amount)
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+PROGRAM 2:
+
