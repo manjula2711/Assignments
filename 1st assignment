@@ -6,14 +6,17 @@ PROGRAM 1 : To calculate total amount of books
 cost_book1 = 499.00
 cost_book2 = 855.00
 cost_book3 = 645.00
-GST = 0.12 # 12%
 delivery_charges = 250.00
 
 book1 = int(input("Enter the number of 'INTRODUCTION TO PYTHON PROGRAMMING' books you want: "))
 book2 = int(input("Enter the number of 'PYTHON LIBRARIES COOKBOOK' books you want: "))
 book3 = int(input("Enter the number of 'DATA SCIENCE IN PYTHON' books you want: "))
 
-Total_amount = (book1 * cost_book1) + (book2 * cost_book2) + (book3 * cost_book3) + GST + delivery_charges
+Books_cost = (book1 * cost_book1) + (book2 * cost_book2) + (book3 * cost_book3) 
+
+GST = Books_cost * 0.12
+
+Total_amount = Books_cost + GST + delivery_charges
 
 print("Total amount including Taxes and Additional charges = ",Total_amount)
 
