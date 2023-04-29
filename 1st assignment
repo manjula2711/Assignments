@@ -28,8 +28,8 @@ uniqueLetters = []
 for i in string1:
     if i not in uniqueLetters:
         uniqueLetters.append(i)
-print("uniqueLetters = ",uniqueLetters)
-    
+uniqueLetters=",".join(uniqueLetters)
+print("uniqueLetters =",uniqueLetters)
     
     
 
